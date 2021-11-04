@@ -1,3 +1,3 @@
 Halo sayang
 Test
-this is new feature by 2
+add new feature 1
