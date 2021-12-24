@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Cardo";
+  src: url("Cardo/Cardo-Regular.ttf");
+}
+@font-face {
+  font-family: "Lora";
+  src: url("Lora/Lora-VariableFont_wght.ttf");
+}
+.navbar_atas {
+  background-color: #e0dad8;
+}
+.navbar_bawah {
+  background-color: #d2d0cf;
+  color: #8b8472;
+  font-size: 17px;
+}
+.navbar_bawah a:link {
+  color: #8b8472;
+}
+.navbar_bawah a:visited {
+  color: #8b8472;
+}
+.navbar_bawah a:hover {
+  color: black;
+}
+.navbar_bawah a:active {
+  color: #8b8472;
+}
+.navi {
+  font-family: "Cardo";
+  color: #8b8472;
+}
+
+.merek {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Cardo";
+}
+
+#poster {
+  background: rgba(200, 200, 200, 37%);
+  color: #403b0d;
+}
+
+.gambar_hair_service {
+  height: 430px;
+  width: 340px;
+}
+
+.p_h_s_j {
+  font-family: "Cardo";
+  font-size: 45px;
+}
+
+.p_h_s {
+  font-family: "Lora";
+}
+.p_h_s1 {
+  font-family: "Lora";
+  font-size: 20px;
+}
+.rectangle {
+  height: 200px;
+  width: 400px;
+  background-color: #efeaea;
+  border-style: solid;
+  border-color: #81753a;
+  border-radius: 25px;
+}
+
+#footer {
+  border-top-color: red;
+  background-color: #f0e9e8;
+}
+
+#our_pricelist {
+  background-color: #efeaea;
+}
+
+#online_reservation {
+  background-color: #e5e5e5;
+}
+
+.rectangle_res {
+  height: 400px;
+  width: 600px;
+  background-color: #e2e2e2;
+  border-style: solid;
+  border-color: #81753a;
+  border-radius: 25px;
+}
+
+.btn-res {
+  padding: 3px 70px;
+  font-size: 17px;
+  border-radius: 50px;
+  background: rgba(192, 175, 175, 28%);
+  color: #8b8472;
+}
+
+.font_form {
+  font-family: "Cardo";
+  color: #403b0d;
+}
+
+.input_form {
+  background: rgba(192, 175, 175, 28%);
+}
+
+.garis {
+  border: 0, 5px solid red;
+}
