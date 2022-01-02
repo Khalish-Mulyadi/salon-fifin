@@ -12,7 +12,7 @@ $id_reservasiDeclined = $_GET['id_reservasiDeclined'];
 function approvedReservasi($id_reservasiApproved)
 {
     global $conn;
-    mysqli_query($conn, "UPDATE reservasi SET status_reservasi = 'approved'");
+    mysqli_query($conn, "UPDATE reservasi SET status_reservasi = 'approved' WHERE id_reservasi= '$id_reservasiApproved'");
 
     return mysqli_affected_rows($conn);
 }
@@ -20,12 +20,13 @@ function approvedReservasi($id_reservasiApproved)
 function declinedReservasi($id_reservasiDeclined)
 {
     global $conn;
-    mysqli_query($conn, "UPDATE reservasi SET status_reservasi = 'declined'");
+    mysqli_query($conn, "UPDATE reservasi SET status_reservasi = 'declined' WHERE id_reservasi= '$id_reservasiDeclined'");
 
     return mysqli_affected_rows($conn);
 }
 
-if (approvedReservasi($id_reservasiApproved) > 0) {
+if ( isset($id_reservasiApproved) ) {
+    approvedReservasi($id_reservasiApproved);
     echo ("
             <script> 
                 alert ('Reservation Approved');
@@ -33,8 +34,10 @@ if (approvedReservasi($id_reservasiApproved) > 0) {
             </script>
         
         ");
-    }
-elseif (declinedReservasi($id_reservasiDeclined) > 0) {
+}
+
+elseif ( isset($id_reservasiDeclined) ) {
+    declinedReservasi($id_reservasiDeclined);
     echo ("
             <script> 
                 alert ('Reservation Declined');
@@ -42,7 +45,8 @@ elseif (declinedReservasi($id_reservasiDeclined) > 0) {
             </script>
         
         ");
-    }
+}
+
 else {
     echo (
         "<script> 
