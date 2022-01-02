@@ -131,7 +131,7 @@
           <div class="rectangle my-auto">
               <br>
               <h5 class="ms-3"><strong>Salon Fifin Beauty Care & Spa </strong> </h5>
-              <p class="ms-3">0812-xxxx-xxxx</p>
+              <p class="ms-3">0853-3450-3561</p>
               <br>
               <p class="me-3 ms-3"> Jl. Raya Panglima Sudirman - Sukomulyo - Pajarakan - Probolinggo.</p>
           </div>
