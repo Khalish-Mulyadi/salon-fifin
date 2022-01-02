@@ -55,7 +55,7 @@
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="3000">
-      <img src="https://i.gyazo.com/896f03d8f62d19b55e589f0edea4f1ec.jpg" class="d-block w-100" alt="...">
+      <img src="https://i.gyazo.com/dcca5c5f51ce39306ade5f0996e52851.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item" data-bs-interval="3000">
       <img src="https://i.gyazo.com/434ced17d6edb930b08b429c16065ee6.jpg" class="d-block w-100" alt="...">
