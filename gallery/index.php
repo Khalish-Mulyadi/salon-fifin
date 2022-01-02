@@ -61,19 +61,19 @@
   <div class="card mx-3 shadow-sm border-2 rounded">
     <img src="https://i.gyazo.com/cc1a20b7ae4f911939d9f47c67ef0cbb.jpg" class="card-img-top " alt="...">
     <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+      <h5 class="card-title text-center">Haircut 1</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
     <img src="https://i.gyazo.com/d498571d70787fa04477f1692abe46a0.jpg" class="card-img-top " alt="...">
     <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+      <h5 class="card-title text-center">Haircut 2</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
     <img src="https://i.gyazo.com/394e906667b663282ca5b130930b15e4.jpg" class="card-img-top " alt="...">
     <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+      <h5 class="card-title text-center">Haircut 3</h5>
     </div>
   </div>
 </div>
@@ -83,19 +83,19 @@
   <div class="card mx-3 shadow-sm border-2 rounded">
     <img src="https://i.gyazo.com/7640ddf1e5d9508969b58dae02f0a5b9.jpg" class="card-img-top X" alt="...">
     <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+      <h5 class="card-title text-center">Haircut 4</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
     <img src="https://i.gyazo.com/331e9761ca6d507170062d2a7a1a6258.jpg" class="card-img-top " alt="...">
     <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+      <h5 class="card-title text-center">Haircut 5</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
     <img src="https://i.gyazo.com/9020c3cca61f9339e6ff2bdeaafaf2e6.jpg" class="card-img-top " alt="...">
     <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+      <h5 class="card-title text-center">Haircut 6</h5>
     </div>
   </div>
 </div>
@@ -119,19 +119,19 @@
   <div class="card mx-3 shadow-sm border-2 rounded">
     <img src="https://i.gyazo.com/1d4e902364cfff2f63ee6c93f862e406.png" class="card-img-top " alt="...">
     <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+      <h5 class="card-title text-center">Face Treatment 1</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
     <img src="https://i.gyazo.com/d49fdbae505e84493899b8c3b847addd.png" class="card-img-top " alt="...">
     <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+      <h5 class="card-title text-center">Face Treatment 2</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
     <img src="https://i.gyazo.com/281cf4f1deca4e776af67af49aee1659.png" class="card-img-top " alt="...">
     <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+      <h5 class="card-title text-center">Face Treatment 3</h5>
     </div>
   </div>
 </div>
@@ -177,19 +177,19 @@
   <div class="card mx-3 shadow-sm border-2 rounded">
     <img src="https://i.gyazo.com/bae04121e5a496c3f014aff82afaa453.png" class="card-img-top " alt="...">
     <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+      <h5 class="card-title text-center">Eye Treatment 1</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
     <img src="https://i.gyazo.com/24f06a445b5ae9589ab134f48b1240bf.png" class="card-img-top " alt="...">
     <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+      <h5 class="card-title text-center">Eye Treatment 2</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
     <img src="https://i.gyazo.com/4a0c2f60062e263686ee7716923b6b1a.png" class="card-img-top " alt="...">
     <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+      <h5 class="card-title text-center">Eye Treatment 3</h5>
     </div>
   </div>
 </div>
@@ -293,19 +293,19 @@
   <div class="card mx-3 shadow-sm border-2 rounded">
     <img src="https://i.gyazo.com/40fa340b33001fa6dd37be27bb78fc7b.png" class="card-img-top " alt="...">
     <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+      <h5 class="card-title text-center">Body Treatment 1</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
     <img src="https://i.gyazo.com/05abdcaa646e0d86e2b6763e19f4fcf9.png" class="card-img-top " alt="...">
     <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+      <h5 class="card-title text-center">Body Treatment 2</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
     <img src="https://i.gyazo.com/4ad484b431d55351dc2638f003cf7d04.png" class="card-img-top " alt="...">
     <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
+      <h5 class="card-title text-center">Body Treatment 3</h5>
     </div>
   </div>
 </div>
