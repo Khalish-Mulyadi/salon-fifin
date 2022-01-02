@@ -136,28 +136,6 @@
   </div>
 </div>
     </div>
-    <div class="carousel-item">
-<div class="card-group">
-  <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top X" alt="...">
-    <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
-    </div>
-  </div>
-  <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
-    <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
-    </div>
-  </div>
-  <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
-    <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
-    </div>
-  </div>
-</div>
-    </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls_2" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -194,28 +172,6 @@
   </div>
 </div>
     </div>
-    <div class="carousel-item">
-<div class="card-group">
-  <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top X" alt="...">
-    <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
-    </div>
-  </div>
-  <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
-    <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
-    </div>
-  </div>
-  <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
-    <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
-    </div>
-  </div>
-</div>
-    </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls_3" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -226,7 +182,7 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-<h3 class="mt-5 navi text-center">Other Treatment</h3>
+<!-- <h3 class="mt-5 navi text-center">Other Treatment</h3>
 <section id="gal_car_1">
     <div id="carouselExampleControls_4" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -283,7 +239,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
+</div> -->
 <h3 class="mt-5 navi text-center">Body Treatment</h3>
 <section id="gal_car_1">
     <div id="carouselExampleControls_5" class="carousel slide" data-bs-ride="carousel">
@@ -310,28 +266,6 @@
   </div>
 </div>
     </div>
-    <div class="carousel-item">
-<div class="card-group">
-  <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top X" alt="...">
-    <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
-    </div>
-  </div>
-  <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
-    <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
-    </div>
-  </div>
-  <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
-    <div class="card-body">
-      <h5 class="card-title text-center">Card title</h5>
-    </div>
-  </div>
-</div>
-    </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls_5" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -352,3 +286,4 @@
 </section>
 </body>
 </html>
+
