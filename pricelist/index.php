@@ -7,7 +7,7 @@
         <title>Price List</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="gaya.css">
+    <link rel="stylesheet" href="../assets/css/gaya.css">
         <link rel="icon" type="image/png" sizes="32x32" href="https://i.gyazo.com/a8f835ee1140dd95fe286f78ace2bd32.png">
 </head>
 <body>
@@ -23,32 +23,32 @@
     <section id="navbar">
       <nav class="navbar navbar_bawah navbar-expand-lg py-1">
   <div class="container-fluid">
-    <a class="navbar-brand merek h1 ms-3 navi" href="#">FIFIN &nbsp;&nbsp;</a>
+    <a class="navbar-brand merek h1 ms-3 navi" href="../index.php">FIFIN &nbsp;&nbsp;</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="ms-5 me-4 nav-link active navi" aria-current="page" href="index.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="ms-5 me-4 nav-link navi" href="index.php#carousel_kedua">Promo</a>
-        </li>
-        <li class="nav-item">
-          <a class="ms-5 me-4 nav-link navi" href="gallery.php">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="ms-5 me-4 nav-link navi" href="pricelist.php">Price List</a>
-        </li>
-        <li class="nav-item">
-          <a class="ms-5 me-4 nav-link navi" href="reservasi.php">Reservation</a>
-        </li>
-        <li class="nav-item">
-          <a class="ms-5 me-4 nav-link navi" href="index.php#about">About </a>
-        </li>
-      </ul>
-    </div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="ms-5 me-4 nav-link navi fs-4" href="../index.php#promo">Promo</a>
+            </li>
+            <li class="nav-item">
+              <a class="ms-5 me-4 nav-link navi fs-4" href="../gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="ms-5 me-4 nav-link navi fs-4" href="../pricelist">Price List</a>
+            </li>
+            <li class="nav-item">
+              <a class="ms-5 me-4 nav-link navi fs-4" href="../reservation">Reservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="ms-5 me-4 nav-link navi fs-4" href="../index.php#about">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="ms-5 nav-link navi fs-4" href="#">Admin</a>
+            </li>
+          </ul>
+        </div>
   </div>
 </nav>
     </section>

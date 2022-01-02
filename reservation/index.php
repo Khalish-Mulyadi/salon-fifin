@@ -1,3 +1,33 @@
+<?php 
+
+include '../koneksi.php';
+if(isset($_POST['submit']))
+{
+  $nama = mysqli_real_escape_string($conn, $_POST['nama']);
+  $telepon = mysqli_real_escape_string($conn, $_POST['telepon']);
+  $layanan = mysqli_real_escape_string($conn, $_POST['layanan']);
+  $tanggalReservasi = mysqli_real_escape_string($conn, $_POST['tanggalReservasi']);
+  $submitReservasi = mysqli_query($conn,"insert into reservasi values('','$nama','$layanan','$telepon', '$tanggalReservasi', 'Declined')");
+  if ($submitReservasi){
+      echo " <script> 
+              alert ('Berhasil melakukan reservasi');
+              </script>";
+              header("location: index.php");
+  } else { 
+          echo (
+              "
+              <script> 
+                  alert ('Gagal melakukan reservasi');
+              </script>");
+          
+          echo mysqli_error($conn);
+      header("location: index.php");
+  }
+  
+};
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +37,7 @@
     <title>Reservation</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="gaya.css">
+    <link rel="stylesheet" href="../assets/css/gaya.css">
         <link rel="icon" type="image/png" sizes="32x32" href="https://i.gyazo.com/a8f835ee1140dd95fe286f78ace2bd32.png">
 </head>
 <body>
@@ -22,32 +52,32 @@
     <section id="navbar">
       <nav class="navbar navbar_bawah navbar-expand-lg py-1">
   <div class="container-fluid">
-    <a class="navbar-brand merek h1 ms-3 navi" href="#">FIFIN &nbsp;&nbsp;</a>
+    <a class="navbar-brand merek h1 ms-3 navi" href="../index.php">FIFIN &nbsp;&nbsp;</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="ms-5 me-4 nav-link active navi" aria-current="page" href="index.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="ms-5 me-4 nav-link navi" href="index.php#carousel_kedua">Promo</a>
-        </li>
-        <li class="nav-item">
-          <a class="ms-5 me-4 nav-link navi" href="gallery.php">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="ms-5 me-4 nav-link navi" href="pricelist.php">Price List</a>
-        </li>
-        <li class="nav-item">
-          <a class="ms-5 me-4 nav-link navi" href="reservasi.php">Reservation</a>
-        </li>
-        <li class="nav-item">
-          <a class="ms-5 me-4 nav-link navi" href="index.php#about">About </a>
-        </li>
-      </ul>
-    </div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="ms-5 me-4 nav-link navi fs-4" href="../index.php#promo">Promo</a>
+            </li>
+            <li class="nav-item">
+              <a class="ms-5 me-4 nav-link navi fs-4" href="gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="ms-5 me-4 nav-link navi fs-4" href="pricelist">Price List</a>
+            </li>
+            <li class="nav-item">
+              <a class="ms-5 me-4 nav-link navi fs-4" href="reservation">Reservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="ms-5 me-4 nav-link navi fs-4" href="../index.php#about">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="ms-5 nav-link navi fs-4" href="#">Admin</a>
+            </li>
+          </ul>
+        </div>
   </div>
 </nav>
     </section>
@@ -57,38 +87,38 @@
               <div class="rectangle_res mx-auto pt-5">
               <br>
                 <div class="container my-auto">
-                <form> 
+                <form method="post"> 
                     <div class="row justify-content-start">
                         <div class="col-md-4">
-                            <input type="text" readonly class="form-control-plaintext ps-5 font_form" id="staticEmail2" value="Nama">
+                          <label for="reserveNama" class="form-label ps-5 font_form">Nama</label>
                             </div>
                                 <div class="col-md-1">
                                      :
                                  </div>
                             <div class="col-md-6">
-                                 <input type="text" class="form-control rounded-pill" id="inputPassword2" placeholder="">
+                                 <input type="text" name="nama" class="form-control rounded-pill" id="reserveNama" placeholder="">
                              </div>
                     </div>
                     <div class="row justify-content-start">
                         <div class="col-md-4">
-                            <input type="text" readonly class="form-control-plaintext ps-5 mt-3 font_form" id="staticEmail2" value="Telepon">
+                          <label for="reserveTelepon" class="form-label ps-5 mt-3 font_form">Telepon</label>
                             </div>
                                 <div class="col-md-1">
                                      <p class="mt-3">:</p>
                                  </div>
                             <div class="col-md-6">
-                                 <input type="text" class="form-control rounded-pill mt-3" id="inputPassword2" placeholder="">
+                                 <input type="text" name="telepon" class="form-control rounded-pill mt-3" id="reserveTelepon" placeholder="">
                              </div>
                     </div>
                     <div class="row justify-content-start">
                         <div class="col-md-4">
-                            <input type="text" readonly class="form-control-plaintext ps-5 mt-3 font_form" id="staticEmail2" value="Pilihan Layanan">
+                          <label for="reserveLayanan" class="form-label ps-5 mt-3 font_form">Pilihan Layanan</label>
                             </div>
                                 <div class="col-md-1">
                                      <p class="mt-3">:</p>
                                  </div>
                             <div class="col-md-5">
-                                 <select class="form-select form-select mt-3 rounded-pill" aria-label=".form-select-lg example">
+                                 <select class="form-select form-select mt-3 rounded-pill" name="layanan" aria-label=".form-select-lg example">
                                     <option hidden>Hairstyle</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
@@ -98,18 +128,18 @@
                     </div>
                     <div class="row justify-content-start">
                         <div class="col-md-4">
-                            <input type="text" readonly class="form-control-plaintext ps-5 mt-3 font_form" id="staticEmail2" value="Tanggal">
+                          <label for="reserveTanggal" name="tanggalReservasi" class="form-label ps-5 mt-3 font_form">Tanggal</label>
                             </div>
                                 <div class="col-md-1">
                                      <p class="mt-3">:</p>
                                  </div>
                             <div class="col-md-5">
-                                <input type="date" class="form-select form-select mt-3 rounded-pill" aria-label=".form-select-lg example">
+                                <input type="date" name="tanggalReservasi" class="form-select form-select mt-3 rounded-pill" aria-label=".form-select-lg example">
                              </div>
                     </div>
                     <div class="container">
                         <div class="text-end">
-                            <button type="button" class="btn btn-res btn-light mt-5 p_h_s">Submit</button>
+                            <button type="submit" name="submit" class="btn btn-res btn-dark mt-5 p_h_s">Submit</button>
                         </div>
                     </div>
                 </form>

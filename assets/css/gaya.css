@@ -94,8 +94,9 @@
   padding: 3px 70px;
   font-size: 17px;
   border-radius: 50px;
-  background: rgba(192, 175, 175, 28%);
-  color: #8b8472;
+  border: 0px;
+  background: #707070;
+  color: #ffffff;
 }
 
 .font_form {

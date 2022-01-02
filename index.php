@@ -38,7 +38,7 @@
               <a class="ms-5 me-4 nav-link navi fs-4" href="pricelist">Price List</a>
             </li>
             <li class="nav-item">
-              <a class="ms-5 me-4 nav-link navi fs-4" href="reservasi">Reservation</a>
+              <a class="ms-5 me-4 nav-link navi fs-4" href="reservation">Reservation</a>
             </li>
             <li class="nav-item">
               <a class="ms-5 me-4 nav-link navi fs-4" href="#about">About </a>
