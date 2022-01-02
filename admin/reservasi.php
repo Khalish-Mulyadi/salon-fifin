@@ -47,6 +47,8 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- modernizr css -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="https://i.gyazo.com/a8f835ee1140dd95fe286f78ace2bd32.png">
 </head>
 
 <body>

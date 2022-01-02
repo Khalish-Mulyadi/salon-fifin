@@ -38,6 +38,7 @@ if (isset($_POST['login']))
         <meta name="author" content="" />
         <title>Login - Salon Fifin Admin</title>
         <link href="assets/css/admin.css" rel="stylesheet" />
+        <link rel="icon" type="image/png" sizes="32x32" href="https://i.gyazo.com/a8f835ee1140dd95fe286f78ace2bd32.png">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
     <body class="bg-warning bg-gradient bg-opacity-50">
