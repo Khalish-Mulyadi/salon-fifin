@@ -59,19 +59,19 @@
     <div class="carousel-item active">
 <div class="card-group">
   <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
+    <img src="https://i.gyazo.com/cc1a20b7ae4f911939d9f47c67ef0cbb.jpg" class="card-img-top " alt="...">
     <div class="card-body">
       <h5 class="card-title text-center">Card title</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
+    <img src="https://i.gyazo.com/d498571d70787fa04477f1692abe46a0.jpg" class="card-img-top " alt="...">
     <div class="card-body">
       <h5 class="card-title text-center">Card title</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
+    <img src="https://i.gyazo.com/394e906667b663282ca5b130930b15e4.jpg" class="card-img-top " alt="...">
     <div class="card-body">
       <h5 class="card-title text-center">Card title</h5>
     </div>
@@ -81,19 +81,19 @@
     <div class="carousel-item">
 <div class="card-group">
   <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top X" alt="...">
+    <img src="https://i.gyazo.com/7640ddf1e5d9508969b58dae02f0a5b9.jpg" class="card-img-top X" alt="...">
     <div class="card-body">
       <h5 class="card-title text-center">Card title</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
+    <img src="https://i.gyazo.com/331e9761ca6d507170062d2a7a1a6258.jpg" class="card-img-top " alt="...">
     <div class="card-body">
       <h5 class="card-title text-center">Card title</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
+    <img src="https://i.gyazo.com/9020c3cca61f9339e6ff2bdeaafaf2e6.jpg" class="card-img-top " alt="...">
     <div class="card-body">
       <h5 class="card-title text-center">Card title</h5>
     </div>
