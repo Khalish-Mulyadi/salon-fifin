@@ -13,10 +13,10 @@
 <body>
     <section id="atas_navbar">
         <nav class="navbar navbar_atas py-0">
-            <div class="container-fluid">
-                <img src="https://img.icons8.com/small/16/000000/whatsapp.png" class="ms-auto">0812-xxxx-xxxx  &nbsp;&nbsp;</>
-                <a href="https://www.instagram.com/salonfifin/"><img src="https://img.icons8.com/small/16/000000/instagram-new.png"/></a>salonfifin
-            </div>
+          <div class="container-fluid">
+              <img src="https://img.icons8.com/small/16/000000/whatsapp.png" class="ms-auto"><a class="contact_wa" href="https://api.whatsapp.com/send/?phone=6285334503561"> 0853-3450-3561 </a>  &nbsp;&nbsp;</>
+              <a href="https://www.instagram.com/salonfifin/"><img src="https://img.icons8.com/small/16/000000/instagram-new.png"/>salonfifin</a>
+          </div>
         </nav>
     </section>
     <section id="navbar">
