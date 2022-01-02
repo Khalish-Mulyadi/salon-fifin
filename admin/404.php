@@ -9,6 +9,7 @@
         <title>404 Error - Salon Fifin Admin</title>
         <link href="assets/css/admin.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/png" sizes="32x32" href="https://i.gyazo.com/a8f835ee1140dd95fe286f78ace2bd32.png">
     </head>
     <body>
         <div id="layoutError">
