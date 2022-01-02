@@ -2,6 +2,7 @@
 
 include '../koneksi.php';
 if(isset($_POST['submit']))
+
 {
   $nama = mysqli_real_escape_string($conn, $_POST['nama']);
   $telepon = mysqli_real_escape_string($conn, $_POST['telepon']);
