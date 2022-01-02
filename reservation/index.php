@@ -10,10 +10,11 @@ if(isset($_POST['submit']))
   $tanggalReservasi = mysqli_real_escape_string($conn, $_POST['tanggalReservasi']);
   $submitReservasi = mysqli_query($conn,"insert into reservasi values('','$nama','$layanan','$telepon', '$tanggalReservasi', 'Submitted')");
   if ($submitReservasi){
-      echo " <script> 
+      echo "
+            <script> 
               alert ('Berhasil melakukan reservasi');
-              </script>";
-              header("location: index.php");
+            </script>";
+              // header("location: index.php");
   } else { 
           echo (
               "
@@ -21,8 +22,7 @@ if(isset($_POST['submit']))
                   alert ('Gagal melakukan reservasi');
               </script>");
           
-          echo mysqli_error($conn);
-      header("location: index.php");
+      // header("location: index.php");
   }
   
 };
