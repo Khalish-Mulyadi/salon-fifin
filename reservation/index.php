@@ -8,7 +8,7 @@ if(isset($_POST['submit']))
   $telepon = mysqli_real_escape_string($conn, $_POST['telepon']);
   $layanan = mysqli_real_escape_string($conn, $_POST['layanan']);
   $tanggalReservasi = mysqli_real_escape_string($conn, $_POST['tanggalReservasi']);
-  $submitReservasi = mysqli_query($conn,"insert into reservasi values('','$nama','$layanan','$telepon', '$tanggalReservasi', 'Declined')");
+  $submitReservasi = mysqli_query($conn,"insert into reservasi values('','$nama','$layanan','$telepon', '$tanggalReservasi', 'Submitted')");
   if ($submitReservasi){
       echo " <script> 
               alert ('Berhasil melakukan reservasi');

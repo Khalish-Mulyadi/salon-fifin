@@ -165,7 +165,11 @@
                                                     
                                                     <?php if ($p['status_reservasi'] == 'declined') { ?>
                                                         <td><a class="btn btn-danger disabled"  href="statusReservasi.php?id_reservasiApproved=<?php echo $p['id_reservasi']; ?>">Declined</a></td>
-                                                    <?php } ?> 
+                                                    <?php } ?>
+                                                    
+                                                    <?php if ($p['status_reservasi'] == 'submitted') { ?>
+                                                        <td><a class="btn btn-secondary disabled"  href="statusReservasi.php?id_reservasiApproved=<?php echo $p['id_reservasi']; ?>">Submitted</a></td>
+                                                    <?php } ?>
                                                     
                                                 </tr>		
 												
