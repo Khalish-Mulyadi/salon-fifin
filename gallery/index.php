@@ -117,19 +117,19 @@
     <div class="carousel-item active">
 <div class="card-group">
   <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
+    <img src="https://i.gyazo.com/1d4e902364cfff2f63ee6c93f862e406.png" class="card-img-top " alt="...">
     <div class="card-body">
       <h5 class="card-title text-center">Card title</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
+    <img src="https://i.gyazo.com/d49fdbae505e84493899b8c3b847addd.png" class="card-img-top " alt="...">
     <div class="card-body">
       <h5 class="card-title text-center">Card title</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
+    <img src="https://i.gyazo.com/281cf4f1deca4e776af67af49aee1659.png" class="card-img-top " alt="...">
     <div class="card-body">
       <h5 class="card-title text-center">Card title</h5>
     </div>
@@ -175,19 +175,19 @@
     <div class="carousel-item active">
 <div class="card-group">
   <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
+    <img src="https://i.gyazo.com/bae04121e5a496c3f014aff82afaa453.png" class="card-img-top " alt="...">
     <div class="card-body">
       <h5 class="card-title text-center">Card title</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
+    <img src="https://i.gyazo.com/24f06a445b5ae9589ab134f48b1240bf.png" class="card-img-top " alt="...">
     <div class="card-body">
       <h5 class="card-title text-center">Card title</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
+    <img src="https://i.gyazo.com/4a0c2f60062e263686ee7716923b6b1a.png" class="card-img-top " alt="...">
     <div class="card-body">
       <h5 class="card-title text-center">Card title</h5>
     </div>
@@ -291,19 +291,19 @@
     <div class="carousel-item active">
 <div class="card-group mb-5">
   <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
+    <img src="https://i.gyazo.com/40fa340b33001fa6dd37be27bb78fc7b.png" class="card-img-top " alt="...">
     <div class="card-body">
       <h5 class="card-title text-center">Card title</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
+    <img src="https://i.gyazo.com/05abdcaa646e0d86e2b6763e19f4fcf9.png" class="card-img-top " alt="...">
     <div class="card-body">
       <h5 class="card-title text-center">Card title</h5>
     </div>
   </div>
   <div class="card mx-3 shadow-sm border-2 rounded">
-    <img src="https://i.gyazo.com/5d7cee1f7673300bd9c7ff4ff83b8e92.jpg" class="card-img-top " alt="...">
+    <img src="https://i.gyazo.com/4ad484b431d55351dc2638f003cf7d04.png" class="card-img-top " alt="...">
     <div class="card-body">
       <h5 class="card-title text-center">Card title</h5>
     </div>
