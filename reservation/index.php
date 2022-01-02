@@ -63,13 +63,13 @@ if(isset($_POST['submit']))
               <a class="ms-5 me-4 nav-link navi fs-4" href="../index.php#promo">Promo</a>
             </li>
             <li class="nav-item">
-              <a class="ms-5 me-4 nav-link navi fs-4" href="gallery">Gallery</a>
+              <a class="ms-5 me-4 nav-link navi fs-4" href="../gallery">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="ms-5 me-4 nav-link navi fs-4" href="pricelist">Price List</a>
+              <a class="ms-5 me-4 nav-link navi fs-4" href="../pricelist">Price List</a>
             </li>
             <li class="nav-item">
-              <a class="ms-5 me-4 nav-link navi fs-4" href="reservation">Reservation</a>
+              <a class="ms-5 me-4 nav-link navi fs-4" href="index.php">Reservation</a>
             </li>
             <li class="nav-item">
               <a class="ms-5 me-4 nav-link navi fs-4" href="../index.php#about">About </a>
