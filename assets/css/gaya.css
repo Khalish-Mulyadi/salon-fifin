@@ -56,6 +56,12 @@ a:active {
   width: 340px;
 }
 
+.gambar_logo {
+  height: 430px;
+  width: 340px;
+  border-radius: 20rem;
+}
+
 .p_h_s_j {
   font-family: "Cardo";
   font-size: 45px;

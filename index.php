@@ -109,7 +109,7 @@
   <div class="container">
     <div class="row align-items-start">
       <div class="col-md-4">
-          <img src="https://i.gyazo.com/2f3cfe9be90b4bd4dd53d558feab45e4.png" class="gambar_hair_service mt-5 mb-5 text-center"></>
+          <img src="https://i.gyazo.com/90c83b7d5c055e6d5e2ee6255bcd624b.jpg" class="gambar_logo mt-5 mb-5 text-center"></>
       </div>
       <div class="col-md-8 my-auto">
         <h1 class="p_h_s_j mb-3 me-5">About</h1>
