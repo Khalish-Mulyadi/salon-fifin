@@ -44,9 +44,9 @@
             <li class="nav-item">
               <a class="ms-5 me-4 nav-link navi fs-4" href="../index.php#about">About </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="ms-5 nav-link navi fs-4" href="#">Admin</a>
-            </li>
+            </li> -->
           </ul>
         </div>
   </div>

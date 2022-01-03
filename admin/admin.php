@@ -130,7 +130,7 @@
 							<li><a href="index.php"><span>Home</span></a></li>
 							<li><a href="../"><span>Kembali ke Homepage</span></a></li>
 							<li><a href="reservasi.php"><span>Kelola Reservasi</span></a></li>
-							<li><a href="promo.php"><span>Kelola Promo</span></a></li>
+							<!-- <li><a href="promo.php"><span>Kelola Promo</span></a></li> -->
 							<li class="active"><a href="admin.php"><span>Kelola Staff</span></a></li>
                             <li>
                                 <a href="../logout.php"><span>Logout</span></a>
